@@ -9,16 +9,13 @@
     "mongodb": "^3.1.10",
     "mongoose": "^5.4.0",
     "mongoose-paginate": "^5.0.3",
+    "nodemon": "^1.18.9",
     "require-dir": "^1.2.0"
-  },
-  "devDependencies": {
-    "nodemon": "^1.18.9"
   },
   "engines": {
     "node": "10.13.0"
   },
   "scripts": {
-    "start": "node server.js",
     "start": "nodemon server.js"
   },
   "keywords": [],
