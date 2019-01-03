@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 
 // iniciando o DB
-mongoose.connect('mongodb://am4:np210804@kamino.mongodb.umbler.com:38439/gobook', 
+mongoose.connect('mongodb+srv://dbam4:np210804@cluster0-juays.mongodb.net/test?retryWrites=true',
 { useNewUrlParser: true  }
 );
 requireDir('./src/models');
