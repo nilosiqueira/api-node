@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 
 // iniciando o DB
-mongoose.connect('mongodb+srv://dbam4:np210804@cluster0-juays.mongodb.net/test?retryWrites=true',
+mongoose.connect('mongodb://teste:pf3butBLpuEeAgA@ds243054.mlab.com:43054/am4',
 { useNewUrlParser: true  }
 );
 requireDir('./src/models');
